@@ -40,7 +40,7 @@ int main(void) {
 }
 float mc_pi(int n)
 {  
-float count=0.0;
+float c=0.0;
     for(int i = 0; i < n; ++i) {
 
     float x = frandom();
@@ -51,12 +51,12 @@ float count=0.0;
      
     if (d<=1)
      
-    count++
+    c++;
 
      
  }
 
- float pi =  (count /(float) n) * 4.0;
+ float pi =  (c /(float) n) * 4.0;
 
  return pi;
 }
