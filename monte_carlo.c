@@ -47,7 +47,7 @@ int count=0.0;
 
      float y = frandom();
 
-     float d=sqtr((x*x)+(y*y)); 
+     float d=sqrt((x*x)+(y*y)); 
      
      if (d<=1)
      
